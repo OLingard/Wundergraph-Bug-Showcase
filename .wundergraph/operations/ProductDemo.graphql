@@ -1,0 +1,5 @@
+query HorizonAndHygraphDemoProduct($sku: Int!) {
+    horizon_product(sku: $sku, strict: false) {
+        title
+    }
+}
